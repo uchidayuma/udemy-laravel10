@@ -1,3 +1,14 @@
+## ブランチ対応表
+各レクチャーごとにブランチを切っているため、適宜ブランチを切り替えながら確認したいソースコードを御覧ください。
+
+| レクチャー名        |  ブランチ名  |
+|--------------|-----------|
+| 完成版 | basic-master |
+| Section3 | 会員登録・ログイン |
+|  ||
+| Section4 | データベースの準備|
+| マイグレーションファイルの作成 | migrations  |
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
