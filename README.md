@@ -8,26 +8,27 @@
 | Laravel Breezeのインストール | breeze |
 | Section4 | データベースの準備|
 | マイグレーションファイルの作成 | create-migration  |
+| Seederファイルの作成 | create-seeder  |
 
 
 # 開発環境の構築
 
 ## 実行したコマンド
 
-docker run -it -v $(pwd):/opt -w /opt laravelsail/php81-composer:latest /bin/bash
-composer create-project 'laravel/laravel:10.*' sail-example
-cd sail-example
-php artisan sail:install
-exit
-./vendor/bin/sail up -d
-sudo chown -R ユーザー名:ユーザー名 .
+- docker run -it -v $(pwd):/opt -w /opt laravelsail/php81-composer:latest /bin/bash
+- composer create-project 'laravel/laravel:10.*' sail-example
+- cd sail-example
+- php artisan sail:install
+- exit
+- ./vendor/bin/sail up -d
+- sudo chown -R ユーザー名:ユーザー名 .
 
 ■ docker desktop for Windowsでpermittion denidedエラーの出る方
-sudo addgroup --system docker
-sudo adduser $USER docker
-newgrp docker
-sudo chown root:docker /var/run/docker.sock
-sudo chmod g+w /var/run/docker.sock
+- sudo addgroup --system docker
+- sudo adduser $USER docker
+- newgrp docker
+- sudo chown root:docker /var/run/docker.sock
+- sudo chmod g+w /var/run/docker.sock
 
 # 会員登録・ログイン機能の開発
 
@@ -84,7 +85,6 @@ sudo chmod g+w /var/run/docker.sock
 ---
 
 ## 実行したコマンド
-
 
 - sail php artisan make:migration create_categories_table
 - sail php artisan make:migration create_recipes_table
