@@ -10,7 +10,12 @@
 | Section4 | データベースの準備 |
 | マイグレーションファイルの作成 | create-migration  |
 | Seederファイルの作成 | create-seeder  |
-| Section5 | データベースの準備 |
+| Section5 | 共通パーツの作成 |
+| 共通ヘッダーの作成 | header1 |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 
 
 # 開発環境の構築
