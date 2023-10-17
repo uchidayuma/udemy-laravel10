@@ -6,6 +6,7 @@
 | 完成版 | basic-master |
 | Section3 | 会員登録・ログイン |
 | Laravel Breezeのインストール | breeze |
+| パスワードリセットの有効化 | password-reset |
 | Section4 | データベースの準備|
 | マイグレーションファイルの作成 | create-migration  |
 | Seederファイルの作成 | create-seeder  |
