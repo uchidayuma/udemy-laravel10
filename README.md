@@ -7,9 +7,10 @@
 | Section3 | 会員登録・ログイン |
 | Laravel Breezeのインストール | breeze |
 | パスワードリセットの有効化 | password-reset |
-| Section4 | データベースの準備|
+| Section4 | データベースの準備 |
 | マイグレーションファイルの作成 | create-migration  |
 | Seederファイルの作成 | create-seeder  |
+| Section5 | データベースの準備 |
 
 
 # 開発環境の構築
@@ -104,3 +105,10 @@
 - sail php artisan make:seeder IngredientsTableSeeder
 - sail php artisan make:seeder StepsTableSeeder
 - sail php artisan make:seeder ReviewsTableSeeder
+
+## 当アプリケーションのカラー定義
+- メインカラー: #FF3366
+- 文字カラー: text-gray-600
+- 見出しカラー: text-gray-800
+- 背景カラー: #ede8d2
+- アクセントカラー: green-700
