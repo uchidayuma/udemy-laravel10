@@ -19,6 +19,7 @@
         <div class="min-h-screen bg-gray-100">
             <!-- ここに共通ヘッダーのコンポーネントを読み込む -->
             @include('layouts.announce-header')
+            @include('layouts.global-header')
 
             <!-- Page Heading -->
             @if (isset($header))
