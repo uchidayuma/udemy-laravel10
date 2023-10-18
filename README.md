@@ -119,3 +119,13 @@
 - 見出しカラー: text-gray-800
 - 背景カラー: #ede8d2
 - アクセントカラー: green-700
+
+# レシピ閲覧機能の開発
+
+## 実行したコマンド
+- sail php artisan make:controller RecipeController --resource
+- sail php artisan make:model Recipe
+- sail php artisan make:model Review
+- sail php artisan make:model Category
+- sail php artisan make:model Ingredient
+- sail php artisan make:model Step
