@@ -12,6 +12,7 @@
 | Seederファイルの作成 | create-seeder  |
 | Section5 | 共通パーツの作成 |
 | 共通ヘッダーの作成 | header1 |
+| 共通ヘッダー2の作成 | header2 |
 |  |  |
 |  |  |
 |  |  |
