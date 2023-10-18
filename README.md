@@ -14,6 +14,12 @@
 | 共通ヘッダーの作成 | header1 |
 | 共通ヘッダー2の作成 | header2 |
 | 共通フッターの作成 | footer |
+| Section6 | レシピ一覧機能の開発 |
+| コントローラーとモデルファイルの作成 | create-controller-model |
+| homeビューの作成 | create-home-view |
+| homeビュー用のデータを取得 | home-view-select |
+|  |  |
+|  |  |
 |  |  |
 |  |  |
 |  |  |
@@ -129,3 +135,6 @@
 - sail php artisan make:model Category
 - sail php artisan make:model Ingredient
 - sail php artisan make:model Step
+
+## Tailwind CSS grid
+- [Tailwind CSS grid](https://tailwindcss.com/docs/grid-template-columns)
