@@ -22,7 +22,12 @@
 | Section7 | レシピ一覧機能の開発 |
 | レシピ一覧用のデータを取得 | [index-select](https://github.com/uchidayuma/udemy-laravel10/tree/index-select) |
 | レシピをカード形式で表示 | [index-layout](https://github.com/uchidayuma/udemy-laravel10/tree/index-layout) |
+| 絞り込み検索フォームを開発 | [index-form](https://github.com/uchidayuma/udemy-laravel10/tree/index-form) |
+| レシピの絞り込みを実装 |  |
 | ページネーションを追加 | [index-paginate] |
+|  |  |
+|  |  |
+|  |  |
 |  |  |
 | Section8 | レシピ閲覧機能の開発 |
 |  |  |
