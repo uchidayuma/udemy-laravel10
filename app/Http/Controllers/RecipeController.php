@@ -61,6 +61,7 @@ class RecipeController extends Controller
 
         $categories = Category::all();
 
+        $categories = Category::all();
         return view('recipes.index', compact('recipes', 'categories'));
     }
 
