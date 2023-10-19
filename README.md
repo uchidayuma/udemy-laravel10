@@ -23,6 +23,7 @@
 | レシピ一覧用のデータを取得 | [index-select](https://github.com/uchidayuma/udemy-laravel10/tree/index-select) |
 | レシピをカード形式で表示 | [index-layout](https://github.com/uchidayuma/udemy-laravel10/tree/index-layout) |
 | 絞り込み検索フォームを開発 | [index-form](https://github.com/uchidayuma/udemy-laravel10/tree/index-form) |
+| 絞り込み検索フォームを改良 | [index-form2](https://github.com/uchidayuma/udemy-laravel10/tree/index-form2) |
 | レシピの絞り込みを実装 |  |
 | ページネーションを追加 | [index-paginate] |
 |  |  |
@@ -149,3 +150,9 @@
 
 ## Tailwind CSS grid
 - [Tailwind CSS grid](https://tailwindcss.com/docs/grid-template-columns)
+
+## アイコンはこちらから
+- [HeroesIcon](https://heroicons.com/)
+
+## ページネーションのドキュメント
+- [Laravel 10.x Pagination - Laravel](https://readouble.com/laravel/10.x/ja/pagination.html)
