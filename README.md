@@ -21,8 +21,8 @@
 | homeビューにレシピカードを表示する | [home-view-recipe-card](https://github.com/uchidayuma/udemy-laravel10/tree/home-view-recipe-card) |
 | Section7 | レシピ一覧機能の開発 |
 | レシピ一覧用のデータを取得 | [index-select](https://github.com/uchidayuma/udemy-laravel10/tree/index-select) |
-|ビューのレイアウトを開発  |  |
-| レシピをカード形式で表示 |  |
+| レシピをカード形式で表示 | [index-layout](https://github.com/uchidayuma/udemy-laravel10/tree/index-layout) |
+| ページネーションを追加 | [index-paginate] |
 |  |  |
 | Section8 | レシピ閲覧機能の開発 |
 |  |  |
