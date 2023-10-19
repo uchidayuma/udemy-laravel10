@@ -27,7 +27,7 @@
         </div>
       </a>
   @endforeach
-      <a href="" class="text-gray-600 block text-right">すべてのレシピへ ></a>
+      <a href="{{route('recipe.index')}}" class="text-gray-600 block text-right">すべてのレシピへ ></a>
     </div>
     <div class="col-span-1 bg-gray ml-4">
       <img src="/images/ad.png" alt="広告">
