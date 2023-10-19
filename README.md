@@ -14,11 +14,17 @@
 | 共通ヘッダーの作成 | [header1](https://github.com/uchidayuma/udemy-laravel10/tree/header1) |
 | 共通ヘッダー2の作成 | [header2](https://github.com/uchidayuma/udemy-laravel10/tree/header2) |
 | 共通フッターの作成 | [footer](https://github.com/uchidayuma/udemy-laravel10/tree/footer) |
-| Section6 | レシピ一覧機能の開発 |
+| Section6 | HOME画面の開発 |
 | コントローラーとモデルファイルの作成 | [create-controller-model](https://github.com/uchidayuma/udemy-laravel10/tree/create-controller-model) |
 | homeビューの作成 | [create-home-view](https://github.com/uchidayuma/udemy-laravel10/tree/create-home-view) |
 | homeビュー用のデータを取得 | [home-view-select](https://github.com/uchidayuma/udemy-laravel10/tree/home-view-select) |
 | homeビューにレシピカードを表示する | [home-view-recipe-card](https://github.com/uchidayuma/udemy-laravel10/tree/home-view-recipe-card) |
+| Section7 | レシピ一覧機能の開発 |
+| レシピ一覧用のデータを取得 | index-select |
+|  |  |
+|  |  |
+|  |  |
+| Section8 | レシピ閲覧機能の開発 |
 |  |  |
 |  |  |
 |  |  |

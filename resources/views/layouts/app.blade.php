@@ -32,7 +32,7 @@
             @endif
 
             <!-- Page Content -->
-            <main class="container mx-auto pt-8">
+            <main class="container mx-auto py-8">
                 {{ $slot }}
             </main>
         </div>
