@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Category;
 use Illuminate\Http\Request;
 use App\Models\Recipe;
 
@@ -29,14 +30,38 @@ class RecipeController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
-        $recipes = Recipe::select('recipes.id', 'recipes.title', 'recipes.description', 'recipes.created_at', 'recipes.image', 'users.name')
+        $filters = $request->all();
+        // dd($filters);
+        $query = Recipe::query()->select('recipes.id', 'recipes.title', 'recipes.description', 'recipes.created_at', 'recipes.image', 'users.name')
             ->join('users', 'users.id', '=', 'recipes.user_id')
-            ->orderBy('recipes.created_at', 'desc')
-            ->get();
+            ->orderBy('recipes.created_at', 'desc');
 
-        return view('recipes.index', compact('recipes'));
+        if( !empty($filters) ) {
+                // もしカテゴリーが選択されていたら
+            if( !empty($filters['categories']) ) {
+                // カテゴリーで絞り込み選択したカテゴリーIDが含まれているレシピを取得
+                $query->whereIn('recipes.category_id', $filters['categories']);
+            }
+            // if( !empty($filters['rating']) ) {
+                // 評価で絞り込み
+                // $query->where('recipes.rating', '>=', $filters['rating']);
+            // }
+            if( !empty($filters['title']) ) {
+                // タイトルで絞り込み
+                // さつまいも
+                // さつまいもの甘露煮
+                // 美味しいさつまいもの甘露煮
+                $query->where('recipes.title', 'like', '%'.$filters['title'].'%');
+            }
+        }
+        $resipes = $query->get();
+        dd($resipes);
+
+        $categories = Category::all();
+
+        return view('recipes.index', compact('recipes', 'categories'));
     }
 
     /**
