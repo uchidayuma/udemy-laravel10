@@ -36,7 +36,7 @@ class RecipeController extends Controller
             ->orderBy('recipes.created_at', 'desc')
             ->get();
 
-            dd($recipes);
+        return view('recipes.index', compact('recipes'));
     }
 
     /**
