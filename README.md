@@ -5,20 +5,20 @@
 |--------------|-----------|
 | 完成版 | basic-master |
 | Section3 | 会員登録・ログイン |
-| Laravel Breezeのインストール | breeze |
-| パスワードリセットの有効化 | password-reset |
+| Laravel Breezeのインストール | [breeze](https://github.com/uchidayuma/udemy-laravel10/tree/breeze) |
+| パスワードリセットの有効化 | [password-reset](https://github.com/uchidayuma/udemy-laravel10/tree/password-reset) |
 | Section4 | データベースの準備 |
-| マイグレーションファイルの作成 | create-migration  |
-| Seederファイルの作成 | create-seeder  |
+| マイグレーションファイルの作成 | [create-migration](https://github.com/uchidayuma/udemy-laravel10/tree/create-migration)  |
+| Seederファイルの作成 | [create-seeder](https://github.com/uchidayuma/udemy-laravel10/tree/create-seeder)  |
 | Section5 | 共通パーツの作成 |
-| 共通ヘッダーの作成 | header1 |
-| 共通ヘッダー2の作成 | header2 |
-| 共通フッターの作成 | footer |
+| 共通ヘッダーの作成 | [header1](https://github.com/uchidayuma/udemy-laravel10/tree/header1) |
+| 共通ヘッダー2の作成 | [header2](https://github.com/uchidayuma/udemy-laravel10/tree/header2) |
+| 共通フッターの作成 | [footer](https://github.com/uchidayuma/udemy-laravel10/tree/footer) |
 | Section6 | レシピ一覧機能の開発 |
-| コントローラーとモデルファイルの作成 | create-controller-model |
-| homeビューの作成 | create-home-view |
-| homeビュー用のデータを取得 | home-view-select |
-|  |  |
+| コントローラーとモデルファイルの作成 | [create-controller-model](https://github.com/uchidayuma/udemy-laravel10/tree/create-controller-model) |
+| homeビューの作成 | [create-home-view](https://github.com/uchidayuma/udemy-laravel10/tree/create-home-view) |
+| homeビュー用のデータを取得 | [home-view-select](https://github.com/uchidayuma/udemy-laravel10/tree/home-view-select) |
+| homeビューにレシピカードを表示する | [home-view-recipe-card](https://github.com/uchidayuma/udemy-laravel10/tree/home-view-recipe-card) |
 |  |  |
 |  |  |
 |  |  |
