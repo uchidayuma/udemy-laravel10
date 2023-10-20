@@ -25,7 +25,9 @@
 | 絞り込み検索フォームを開発 | [index-form](https://github.com/uchidayuma/udemy-laravel10/tree/index-form) |
 | レシピの絞り込みを実装 | [index-request-form](https://github.com/uchidayuma/udemy-laravel10/tree/index-request-form) |
 | 絞り込み検索フォームを改良 | [index-form2](https://github.com/uchidayuma/udemy-laravel10/tree/index-form2) |
-| レシピの絞り込みを実装 |  |
+| レシピの絞り込みを実装 | [index-request-form](https://github.com/uchidayuma/udemy-laravel10/tree/index-request-form) |
+| 評価平均値での絞り込み | [index-request-form-rating](https://github.com/uchidayuma/udemy-laravel10/tree/index-request-form-rating)|
+| 絞り込みフォームの状態維持 | [index-form-keep](https://github.com/uchidayuma/udemy-laravel10/tree/index-form-keep) |
 | ページネーションを追加 | [index-paginate] |
 |  |  |
 |  |  |
