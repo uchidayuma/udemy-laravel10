@@ -34,8 +34,11 @@ class RecipeController extends Controller
     {
         $filters = $request->all();
         // dd($filters);
-        $query = Recipe::query()->select('recipes.id', 'recipes.title', 'recipes.description', 'recipes.created_at', 'recipes.image', 'users.name')
+        $query = Recipe::query()->select('recipes.id', 'recipes.title', 'recipes.description', 'recipes.created_at', 'recipes.image', 'users.name'
+        , \DB::raw('AVG(reviews.rating) as rating'))
             ->join('users', 'users.id', '=', 'recipes.user_id')
+            ->leftJoin('reviews', 'reviews.recipe_id', '=', 'recipes.id')
+            ->groupBy('recipes.id')
             ->orderBy('recipes.created_at', 'desc');
 
         if( !empty($filters) ) {
@@ -44,10 +47,10 @@ class RecipeController extends Controller
                 // カテゴリーで絞り込み選択したカテゴリーIDが含まれているレシピを取得
                 $query->whereIn('recipes.category_id', $filters['categories']);
             }
-            // if( !empty($filters['rating']) ) {
+            if( !empty($filters['rating']) ) {
                 // 評価で絞り込み
-                // $query->where('recipes.rating', '>=', $filters['rating']);
-            // }
+                $query->havingRaw('AVG(reviews.rating) >= ?', [$filters['rating']])->orderBy('rating', 'desc');
+            }
             if( !empty($filters['title']) ) {
                 // タイトルで絞り込み
                 // さつまいも
@@ -56,8 +59,8 @@ class RecipeController extends Controller
                 $query->where('recipes.title', 'like', '%'.$filters['title'].'%');
             }
         }
-        $resipes = $query->get();
-        dd($resipes);
+        $recipes = $query->get();
+        // dd($resipes);
 
         $categories = Category::all();
 
