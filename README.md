@@ -157,5 +157,8 @@
 ## アイコンはこちらから
 - [HeroesIcon](https://heroicons.com/)
 
+## パンくずリスト
+- [Laravel Breadcrumbs](https://github.com/diglactic/laravel-breadcrumbs)
+
 ## ページネーションのドキュメント
 - [Laravel 10.x Pagination - Laravel](https://readouble.com/laravel/10.x/ja/pagination.html)
