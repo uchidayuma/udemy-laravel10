@@ -28,7 +28,7 @@
 | レシピの絞り込みを実装 | [index-request-form](https://github.com/uchidayuma/udemy-laravel10/tree/index-request-form) |
 | 評価平均値での絞り込み | [index-request-form-rating](https://github.com/uchidayuma/udemy-laravel10/tree/index-request-form-rating)|
 | 絞り込みフォームの状態維持 | [index-form-keep](https://github.com/uchidayuma/udemy-laravel10/tree/index-form-keep) |
-| ページネーションを追加 | [index-paginate] |
+| ページネーションを追加 | [index-paginate](https://github.com/uchidayuma/udemy-laravel10/tree/index-paginate) |
 |  |  |
 |  |  |
 |  |  |
@@ -159,6 +159,8 @@
 
 ## パンくずリスト
 - [Laravel Breadcrumbs](https://github.com/diglactic/laravel-breadcrumbs)
+- sail composer require diglactic/laravel-breadcrumbs
+- sail php artisan vendor:publish --tag=breadcrumbs-config
 
 ## ページネーションのドキュメント
 - [Laravel 10.x Pagination - Laravel](https://readouble.com/laravel/10.x/ja/pagination.html)
