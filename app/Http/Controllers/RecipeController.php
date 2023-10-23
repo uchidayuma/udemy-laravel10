@@ -90,7 +90,7 @@ class RecipeController extends Controller
         $recipe = Recipe::find($id);
         $recipe->increment('views');
         // リレーションで材料とステップを取得
-       dd($recipe);
+    //    dd($recipe);
 
         return view('recipes.show', compact('recipe'));
     }

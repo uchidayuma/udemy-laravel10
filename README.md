@@ -31,7 +31,7 @@
 | ページネーションを追加 | [index-paginate] |
 | Section8 | レシピ閲覧機能の開発 |
 | レシピデータの取得 | [recipe-show](https://github.com/uchidayuma/udemy-laravel10/tree/recipe-show) |
-|  |  |
+| レシピ閲覧Viewの作成① | [recipe-show-view1](https://github.com/uchidayuma/udemy-laravel10/tree/recipe-show-view1)|
 |  |  |
 |  |  |
 |  |  |
