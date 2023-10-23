@@ -29,12 +29,8 @@
 | 評価平均値での絞り込み | [index-request-form-rating](https://github.com/uchidayuma/udemy-laravel10/tree/index-request-form-rating)|
 | 絞り込みフォームの状態維持 | [index-form-keep](https://github.com/uchidayuma/udemy-laravel10/tree/index-form-keep) |
 | ページネーションを追加 | [index-paginate] |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
 | Section8 | レシピ閲覧機能の開発 |
-|  |  |
+| レシピデータの取得 | [recipe-show](https://github.com/uchidayuma/udemy-laravel10/tree/recipe-show) |
 |  |  |
 |  |  |
 |  |  |
