@@ -32,7 +32,7 @@
 | Section8 | レシピ閲覧機能の開発 |
 | レシピデータの取得 | [recipe-show](https://github.com/uchidayuma/udemy-laravel10/tree/recipe-show) |
 | レシピ閲覧Viewの作成① | [recipe-show-view1](https://github.com/uchidayuma/udemy-laravel10/tree/recipe-show-view1)|
-|  |  |
+| モデルのリレーションを設定 | [relation-setting](https://github.com/uchidayuma/udemy-laravel10/tree/relation-setting) |
 |  |  |
 |  |  |
 
@@ -155,6 +155,13 @@
 
 ## パンくずリスト
 - [Laravel Breadcrumbs](https://github.com/diglactic/laravel-breadcrumbs)
+- sail composer require diglactic/laravel-breadcrumbs
+- sail php artisan vendor:publish --tag=breadcrumbs-config
 
 ## ページネーションのドキュメント
 - [Laravel 10.x Pagination - Laravel](https://readouble.com/laravel/10.x/ja/pagination.html)
+
+# レシピ閲覧機能の開発
+
+## リレーションのドキュメント
+- [Eloquent: Relationships - Laravel](https://readouble.com/laravel/10.x/ja/eloquent-relationships.html)
