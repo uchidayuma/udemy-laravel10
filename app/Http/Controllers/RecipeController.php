@@ -61,10 +61,8 @@ class RecipeController extends Controller
         }
         $recipes = $query->paginate(5);
         // dd($recipes);
-
         $categories = Category::all();
 
-        $categories = Category::all();
         return view('recipes.index', compact('recipes', 'categories', 'filters'));
     }
 
@@ -89,7 +87,12 @@ class RecipeController extends Controller
      */
     public function show(string $id)
     {
-        //
+        $recipe = Recipe::find($id);
+        $recipe->increment('views');
+        // リレーションで材料とステップを取得
+       dd($recipe);
+
+        return view('recipes.show', compact('recipe'));
     }
 
     /**

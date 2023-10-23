@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [RecipeController::class, 'home'])->name('home');
 Route::get('/recipes', [RecipeController::class, 'index'])->name('recipe.index');
+Route::get('/recipes/{id}', [RecipeController::class, 'show'])->name('recipe.show');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
