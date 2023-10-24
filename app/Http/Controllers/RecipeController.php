@@ -88,10 +88,9 @@ class RecipeController extends Controller
      */
     public function show(string $id)
     {
-        $recipe = Recipe::with(['ingredients', 'steps', 'reviews', 'user'])
+        $recipe = Recipe::with(['ingredients', 'steps', 'reviews.user', 'user'])
             ->where('recipes.id', $id)
-            ->get();
-        $recipe = $recipe[0];
+            ->first();
         $recipe_recode = Recipe::find($id);
         $recipe_recode->increment('views');
         // $ingredients = Ingredient::where('recipe_id', $recipe['id'])->get();
