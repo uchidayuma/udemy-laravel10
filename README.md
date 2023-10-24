@@ -28,11 +28,14 @@
 | レシピの絞り込みを実装 | [index-request-form](https://github.com/uchidayuma/udemy-laravel10/tree/index-request-form) |
 | 評価平均値での絞り込み | [index-request-form-rating](https://github.com/uchidayuma/udemy-laravel10/tree/index-request-form-rating)|
 | 絞り込みフォームの状態維持 | [index-form-keep](https://github.com/uchidayuma/udemy-laravel10/tree/index-form-keep) |
-| ページネーションを追加 | [index-paginate] |
+| ページネーションを追加 | [index-paginate](https://github.com/uchidayuma/udemy-laravel10/tree/index-paginate) |
 | Section8 | レシピ閲覧機能の開発 |
 | レシピデータの取得 | [recipe-show](https://github.com/uchidayuma/udemy-laravel10/tree/recipe-show) |
 | レシピ閲覧Viewの作成① | [recipe-show-view1](https://github.com/uchidayuma/udemy-laravel10/tree/recipe-show-view1)|
 | モデルのリレーションを設定 | [relation-setting](https://github.com/uchidayuma/udemy-laravel10/tree/relation-setting) |
+| withメソッドでリレーションデータを取得 | [show-with](https://github.com/uchidayuma/udemy-laravel10/tree/show-with) |
+|  |  |
+|  |  |
 |  |  |
 |  |  |
 

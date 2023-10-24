@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Category;
+use App\Models\Ingredient;
 use Illuminate\Http\Request;
 use App\Models\Recipe;
 
@@ -87,8 +88,14 @@ class RecipeController extends Controller
      */
     public function show(string $id)
     {
-        $recipe = Recipe::find($id);
-        $recipe->increment('views');
+        $recipe = Recipe::with(['ingredients', 'steps', 'reviews'])
+            ->where('recipes.id', $id)
+            ->get();
+        $recipe = $recipe[0];
+        $recipe_recode = Recipe::find($id);
+        $recipe_recode->increment('views');
+        // $ingredients = Ingredient::where('recipe_id', $recipe['id'])->get();
+        // $steps = Step::where('recipe_id', $recipe['id'])->get();
         // リレーションで材料とステップを取得
     //    dd($recipe);
 
