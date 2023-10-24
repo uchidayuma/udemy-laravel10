@@ -35,7 +35,9 @@
 | モデルのリレーションを設定 | [relation-setting](https://github.com/uchidayuma/udemy-laravel10/tree/relation-setting) |
 | withメソッドでリレーションデータを取得 | [show-with](https://github.com/uchidayuma/udemy-laravel10/tree/show-with) |
 | レシピ閲覧Viewの作成② | [recipe-show-view2](https://github.com/uchidayuma/udemy-laravel10/tree/recipe-show-view2)|
-|  |  |
+| レシピ閲覧Viewの作成③（レビューパネル） | [recipe-show-view3](https://github.com/uchidayuma/udemy-laravel10/tree/recipe-show-view3)|
+| レシピ閲覧ページのデザイン調整 |  |
+| Section9 | レシピ投稿機能の開発 |
 |  |  |
 |  |  |
 |  |  |
