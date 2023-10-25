@@ -40,7 +40,7 @@
 | Section9 | レシピ投稿機能の開発 |
 | レシピ投稿用のViewを作成 | [create-view](https://github.com/uchidayuma/udemy-laravel10/tree/create-view) |
 | レシピデータを投稿 | [min-post](https://github.com/uchidayuma/udemy-laravel10/tree/min-post) |
-|  |  |
+| 画像アップロードの準備 | [pre-upload](https://github.com/uchidayuma/udemy-laravel10/tree/pre-upload) |
 |  |  |
 |  |  |
 
@@ -173,3 +173,9 @@
 
 ## リレーションのドキュメント
 - [Eloquent: Relationships - Laravel](https://readouble.com/laravel/10.x/ja/eloquent-relationships.html)
+
+# レシピ投稿機能の開発
+
+## AWS関連リンク
+- [アカウント登録](https://aws.amazon.com/jp/register-flow/)
+- [S3利用料金](https://aws.amazon.com/jp/s3/pricing/)
