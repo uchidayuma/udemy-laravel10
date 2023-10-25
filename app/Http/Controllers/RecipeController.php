@@ -85,7 +85,11 @@ class RecipeController extends Controller
     public function store(Request $request)
     {
         $posts = $request->all();
-        // dd($posts);
+        dd($posts);
+        // s3に画像をアップロード
+
+        // s3のURLを取得
+        // DBにはURLを保存
         Recipe::insert([
             'id' => Str::uuid(),
             'title' => $posts['title'],
