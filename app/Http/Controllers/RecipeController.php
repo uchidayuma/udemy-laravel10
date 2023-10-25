@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Auth;
 use App\Models\Category;
 use App\Models\Ingredient;
 use Illuminate\Http\Request;
@@ -72,7 +74,9 @@ class RecipeController extends Controller
      */
     public function create()
     {
-        return view('recipes.create');
+        $categories = Category::all();
+
+        return view('recipes.create', compact('categories'));
     }
 
     /**
@@ -80,7 +84,15 @@ class RecipeController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $posts = $request->all();
+        // dd($posts);
+        Recipe::insert([
+            'id' => Str::uuid(),
+            'title' => $posts['title'],
+            'description' => $posts['description'],
+            'category_id' => $posts['category'],
+            'user_id' => Auth::id()
+        ]);
     }
 
     /**

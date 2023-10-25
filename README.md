@@ -39,7 +39,7 @@
 | レシピ閲覧ページのデザイン調整 | [show-design-improve](https://github.com/uchidayuma/udemy-laravel10/tree/show-design-improve) |
 | Section9 | レシピ投稿機能の開発 |
 | レシピ投稿用のViewを作成 | [create-view](https://github.com/uchidayuma/udemy-laravel10/tree/create-view) |
-|  |  |
+| レシピデータを投稿 | [min-post](https://github.com/uchidayuma/udemy-laravel10/tree/min-post) |
 |  |  |
 |  |  |
 |  |  |
