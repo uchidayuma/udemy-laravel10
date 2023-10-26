@@ -42,6 +42,10 @@
 | レシピデータを投稿 | [min-post](https://github.com/uchidayuma/udemy-laravel10/tree/min-post) |
 | 画像アップロードの準備 | [pre-upload](https://github.com/uchidayuma/udemy-laravel10/tree/pre-upload) |
 | S3に画像をアップロード | [s3-upload](https://github.com/uchidayuma/udemy-laravel10/tree/s3-upload) |
+| ステップのフォームを作成 | [steps-form](https://github.com/uchidayuma/udemy-laravel10/tree/steps-form) |
+| ステップのフォームを作成2 | [steps-form2](https://github.com/uchidayuma/udemy-laravel10/tree/steps-form2) |
+| stepsテーブルへのインサート |  |
+|  |  |
 |  |  |
 
 
@@ -203,3 +207,5 @@
 ```
 sail composer require league/flysystem-aws-s3-v3
 ```
+## sortable.js
+- [SortableJS](https://github.com/SortableJS/Sortable)
