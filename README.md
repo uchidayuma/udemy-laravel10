@@ -41,7 +41,7 @@
 | レシピ投稿用のViewを作成 | [create-view](https://github.com/uchidayuma/udemy-laravel10/tree/create-view) |
 | レシピデータを投稿 | [min-post](https://github.com/uchidayuma/udemy-laravel10/tree/min-post) |
 | 画像アップロードの準備 | [pre-upload](https://github.com/uchidayuma/udemy-laravel10/tree/pre-upload) |
-|  |  |
+| S3に画像をアップロード | [s3-upload](https://github.com/uchidayuma/udemy-laravel10/tree/s3-upload) |
 |  |  |
 
 
@@ -196,4 +196,10 @@
         }
     ]
 }
+```
+
+## AWS S3のcomposerパッケージをインストール
+
+```
+sail composer require league/flysystem-aws-s3-v3
 ```
