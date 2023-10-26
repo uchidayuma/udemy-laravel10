@@ -9,6 +9,7 @@ use App\Models\Category;
 use App\Models\Ingredient;
 use Illuminate\Http\Request;
 use App\Models\Recipe;
+use App\Models\Step;
 
 class RecipeController extends Controller
 {
@@ -86,6 +87,7 @@ class RecipeController extends Controller
     public function store(Request $request)
     {
         $posts = $request->all();
+        $uuid = Str::uuid()->toString();
         // dd($posts);
         $image = $request->file('image');
         // s3に画像をアップロード
@@ -95,13 +97,24 @@ class RecipeController extends Controller
         $url = Storage::disk('s3')->url($path);
         // DBにはURLを保存
         Recipe::insert([
-            'id' => Str::uuid(),
+            'id' => $uuid,
             'title' => $posts['title'],
             'description' => $posts['description'],
             'category_id' => $posts['category'],
             'image' => $url,
             'user_id' => Auth::id()
         ]);
+        $steps = [];
+        foreach($posts['steps'] as $key => $step){
+            $steps[$key] = [
+                'recipe_id' => $uuid,
+                'step_number' => $key + 1,
+                'description' => $step
+            ];
+        }
+        STEP::insert($steps);
+        dd($steps);
+
     }
 
     /**
