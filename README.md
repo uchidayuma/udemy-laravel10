@@ -189,10 +189,10 @@
             "Sid": "Statement1",
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::995962138333:user/s3user"
+                "AWS": "arn:aws:iam::995962138333:user/s3user" //受講者様の値に変えてください
             },
             "Action": "s3:PutObject",
-            "Resource": "arn:aws:s3:::cooklaravel/*"
+            "Resource": "arn:aws:s3:::バケット名/*"
         }
     ]
 }
