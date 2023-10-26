@@ -179,3 +179,21 @@
 ## AWS関連リンク
 - [アカウント登録](https://aws.amazon.com/jp/register-flow/)
 - [S3利用料金](https://aws.amazon.com/jp/s3/pricing/)
+
+## S3バケットポリシー
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Statement1",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::995962138333:user/s3user"
+            },
+            "Action": "s3:PutObject",
+            "Resource": "arn:aws:s3:::cooklaravel/*"
+        }
+    ]
+}
+```
