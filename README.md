@@ -48,7 +48,7 @@
 | 材料のフォームを作成 | [ingredients-form](https://github.com/uchidayuma/udemy-laravel10/tree/ingredients-form) |
 | 材料をingredientsテーブルにインサート | [ingredients-insert](https://github.com/uchidayuma/udemy-laravel10/tree/ingredients-insert) |
 | Transaction処理を追加 | [post-transaction](https://github.com/uchidayuma/udemy-laravel10/tree/post-transaction) |
-|  |  |
+| flashメッセージの導入と画像プレビュー | [flash-message](https://github.com/uchidayuma/udemy-laravel10/tree/flash-message) |
 |  |  |
 |  |  |
 |  |  |
@@ -214,3 +214,7 @@ sail composer require league/flysystem-aws-s3-v3
 ```
 ## sortable.js
 - [SortableJS](https://github.com/SortableJS/Sortable)
+
+## flashメッセージ
+- [ドキュメント](https://github.com/josegus/laravel-flash)
+- sail composer require josegus/laravel-flash
