@@ -46,6 +46,9 @@
 | ステップのフォームを作成2 | [steps-form2](https://github.com/uchidayuma/udemy-laravel10/tree/steps-form2) |
 | ステップのフォームを作成3 | [steps-form3](https://github.com/uchidayuma/udemy-laravel10/tree/steps-form3) |
 | 材料のフォームを作成 | [ingredients-form](https://github.com/uchidayuma/udemy-laravel10/tree/ingredients-form) |
+| 材料をingredientsテーブルにインサート | [ingredients-insert](https://github.com/uchidayuma/udemy-laravel10/tree/ingredients-insert) |
+| Transaction処理を追加 | [post-transaction](https://github.com/uchidayuma/udemy-laravel10/tree/post-transaction) |
+|  |  |
 |  |  |
 |  |  |
 |  |  |
