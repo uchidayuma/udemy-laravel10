@@ -45,6 +45,7 @@
 | ステップのフォームを作成 | [steps-form](https://github.com/uchidayuma/udemy-laravel10/tree/steps-form) |
 | ステップのフォームを作成2 | [steps-form2](https://github.com/uchidayuma/udemy-laravel10/tree/steps-form2) |
 | ステップのフォームを作成3 | [steps-form3](https://github.com/uchidayuma/udemy-laravel10/tree/steps-form3) |
+| 材料のフォームを作成 | [ingredients-form](https://github.com/uchidayuma/udemy-laravel10/tree/ingredients-form) |
 |  |  |
 |  |  |
 |  |  |
