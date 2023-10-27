@@ -9,6 +9,7 @@
         "diglactic/laravel-breadcrumbs": "^8.1",
         "goldspecdigital/laravel-eloquent-uuid": "^10.0",
         "guzzlehttp/guzzle": "^7.2",
+        "josegus/laravel-flash": "^1.4",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.8",

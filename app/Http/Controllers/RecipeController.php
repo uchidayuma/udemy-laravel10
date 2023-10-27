@@ -132,6 +132,8 @@ class RecipeController extends Controller
             throw $th;
         }
         // dd($steps);
+        flash()->success('レシピを投稿しました！');
+         
         return redirect()->route('recipe.show', ['id' => $uuid]);
     }
 
