@@ -43,4 +43,29 @@ window.onload = function() {
     `;
     steps.appendChild(step);
   });
-};
+  // 材料の追加
+  var ingredients = document.getElementById('ingredients');
+  Sortable.create(ingredients, {
+    animation: 150,
+    handle: '.handle',
+    onEnd: function(evt) {
+      var items = ingredients.querySelectorAll('.ingredient');
+      items.forEach(function(item, index) {
+          item.querySelector('.ingredient-name').name = `ingredients[${index}][name]`;
+          item.querySelector('.ingredient-quantity').name = `ingredients[${index}][quantity]`;
+      });
+    }
+  });
+  // 削除
+  ingredients.addEventListener('click', function(evt) {
+    if (evt.target.classList.contains('ingredient-delete') || evt.target.closest('.ingredient-delete') ) {
+      evt.target.closest('.ingredient').remove();
+      var items = ingredients.querySelectorAll('.ingredient');
+      items.forEach(function(item, index) {
+          item.querySelector('.ingredient-name').name = `ingredients[${index}][name]`;
+          item.querySelector('.ingredient-quantity').name = `ingredients[${index}][quantity]`;
+      });
+    }
+  })
+
+};// window.onload = function() {

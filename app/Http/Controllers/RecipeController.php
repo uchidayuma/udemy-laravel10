@@ -104,6 +104,17 @@ class RecipeController extends Controller
             'image' => $url,
             'user_id' => Auth::id()
         ]);
+        // $posts['ingredients'] =$posts['ingredients'][0]['name']
+        // $posts['ingredients'] =$posts['ingredients'][0]['quantity']
+        $ingredients = [];
+        foreach($posts['ingredients'] as $key => $ingredient){
+            $ingredients[$key] = [
+                'recipe_id' => $uuid,
+                'name' => $ingredient['name'],
+                'quantity' => $ingredient['quantity']
+            ];
+        }
+        Ingredient::insert($ingredients);
         $steps = [];
         foreach($posts['steps'] as $key => $step){
             $steps[$key] = [
