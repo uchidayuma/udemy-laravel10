@@ -49,7 +49,7 @@
 | 材料をingredientsテーブルにインサート | [ingredients-insert](https://github.com/uchidayuma/udemy-laravel10/tree/ingredients-insert) |
 | Transaction処理を追加 | [post-transaction](https://github.com/uchidayuma/udemy-laravel10/tree/post-transaction) |
 | flashメッセージの導入と画像プレビュー | [flash-message](https://github.com/uchidayuma/udemy-laravel10/tree/flash-message) |
-|  |  |
+| バリデーションの実装と日本語化 | [create-validation](https://github.com/uchidayuma/udemy-laravel10/tree/create-validation) |
 |  |  |
 |  |  |
 
@@ -212,9 +212,16 @@
 ```
 sail composer require league/flysystem-aws-s3-v3
 ```
+
 ## sortable.js
 - [SortableJS](https://github.com/SortableJS/Sortable)
 
 ## flashメッセージ
 - [ドキュメント](https://github.com/josegus/laravel-flash)
 - sail composer require josegus/laravel-flash
+
+## バリデーションのドキュメント
+- [Laravel 10.x Validation - Laravel](https://readouble.com/laravel/10.x/ja/validation.html)
+- sail php artisan make:request RecipeCreateRequest
+- [日本語化解説](https://biz.addisteria.com/laravel_translation/)
+- [日本語翻訳ファイル](https://github.com/askdkc/breezejp)

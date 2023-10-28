@@ -13,12 +13,12 @@
         <input type="file" id="image" name="image" class="border border-gray-300 p-2 mb-4 w-full rounded">
       </div>
       <div class="col-span-1 p-4">
-        <input type="text" name="title" placeholder="レシピ名" class="border border-gray-300 p-2 mb-4 w-full rounded">
-        <textarea name="description" placeholder="レシピの説明" class="border border-gray-300 p-2 mb-4 w-full roundedl"></textarea>
+        <input type="text" name="title" value="{{ old('title') }}" placeholder="レシピ名" class="border border-gray-300 p-2 mb-4 w-full rounded">
+        <textarea name="description" placeholder="レシピの説明" class="border border-gray-300 p-2 mb-4 w-full roundedl">{{ old('description') }}</textarea>
         <select name="category" class="border border-gray-300 p-2 mb-4 w-full rounded">
           <option value="">カテゴリー</option>
       @foreach($categories as $c)
-          <option value="{{ $c['id'] }}">{{ $c['name'] }}</option>
+          <option value="{{ $c['id'] }}" {{ (old('category') ?? null) == $c['id'] ? 'selected' : '' }}>{{ $c['name'] }}</option>
       @endforeach
         </select>
         <h4 class="text-bold text-xl mb-4">材料を入力</h4>
