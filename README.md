@@ -50,6 +50,11 @@
 | Transaction処理を追加 | [post-transaction](https://github.com/uchidayuma/udemy-laravel10/tree/post-transaction) |
 | flashメッセージの導入と画像プレビュー | [flash-message](https://github.com/uchidayuma/udemy-laravel10/tree/flash-message) |
 | バリデーションの実装と日本語化 | [create-validation](https://github.com/uchidayuma/udemy-laravel10/tree/create-validation) |
+| おまけ）動的に追加したフォームにバリデーションを適用する | [add-validation](https://github.com/uchidayuma/udemy-laravel10/tree/add-validation) |
+| Section10 | レシピ編集・削除機能の開発 |
+|  |  |
+|  |  |
+|  |  |
 |  |  |
 |  |  |
 
