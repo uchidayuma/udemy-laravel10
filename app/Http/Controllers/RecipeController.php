@@ -170,7 +170,7 @@ class RecipeController extends Controller
     {
         $recipe = Recipe::with(['ingredients', 'steps', 'reviews.user', 'user'])
             ->where('recipes.id', $id)
-            ->first();
+            ->first()->toArray();
         $categories = Category::all();
         
         return view('recipes.edit', compact('recipe', 'categories'));
