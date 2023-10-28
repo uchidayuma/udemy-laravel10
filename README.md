@@ -53,7 +53,7 @@
 | おまけ）動的に追加したフォームにバリデーションを適用する | [add-validation](https://github.com/uchidayuma/udemy-laravel10/tree/add-validation) |
 | Section10 | レシピ編集・削除機能の開発 |
 | 編集に必要なデータを取得 | [get-edit-data](https://github.com/uchidayuma/udemy-laravel10/tree/get-edit-data) |
-| 編集用Viewの作成 | [create-edit-view] |
+| 編集用Viewの作成 | [create-edit-view](https://github.com/uchidayuma/udemy-laravel10/tree/create-edit-view) |
 |  |  |
 |  |  |
 |  |  |
