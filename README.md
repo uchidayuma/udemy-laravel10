@@ -55,8 +55,9 @@
 | 編集に必要なデータを取得 | [get-edit-data](https://github.com/uchidayuma/udemy-laravel10/tree/get-edit-data) |
 | 編集用Viewの作成 | [create-edit-view](https://github.com/uchidayuma/udemy-laravel10/tree/create-edit-view) |
 | データを更新 | [post-update](https://github.com/uchidayuma/udemy-laravel10/tree/post-update) |
-| 更新ページにもバリデーションを適用 | [] |
-| 削除機能の開発 | [] |
+| 更新ページにもバリデーションを適用 | [update-validate](https://github.com/uchidayuma/udemy-laravel10/tree/update-validate) |
+| 削除機能の開発 | [recipe-delete](https://github.com/uchidayuma/udemy-laravel10/tree/recipe-delete) |
+| Section11 | レビュー機能の開発 |
 |  |  |
 |  |  |
 |  |  |
