@@ -27,6 +27,7 @@ Route::middleware('auth')->group(function () {
     Route::post('/recipes', [RecipeController::class, 'store'])->name('recipe.store');
     Route::get('/recipes/edit/{id}', [RecipeController::class, 'edit'])->name('recipe.edit');
     Route::patch('/recipes/update/{id}', [RecipeController::class, 'update'])->name('recipe.update');
+    Route::delete('/recipes/{id}', [RecipeController::class, 'destroy'])->name('recipe.destroy');
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
