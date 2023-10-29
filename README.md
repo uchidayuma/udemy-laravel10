@@ -56,8 +56,12 @@
 | 編集用Viewの作成 | [create-edit-view](https://github.com/uchidayuma/udemy-laravel10/tree/create-edit-view) |
 | データを更新 | [post-update](https://github.com/uchidayuma/udemy-laravel10/tree/post-update) |
 | 更新ページにもバリデーションを適用 | [update-validate](https://github.com/uchidayuma/udemy-laravel10/tree/update-validate) |
+| 編集ページのアクセス権を設定 | [edit-403](https://github.com/uchidayuma/udemy-laravel10/tree/edit-403) |
 | 削除機能の開発 | [recipe-delete](https://github.com/uchidayuma/udemy-laravel10/tree/recipe-delete) |
 | Section11 | レビュー機能の開発 |
+|  |  |
+|  |  |
+|  |  |
 |  |  |
 |  |  |
 |  |  |
@@ -234,3 +238,4 @@ sail composer require league/flysystem-aws-s3-v3
 - sail php artisan make:request RecipeCreateRequest
 - [日本語化解説](https://biz.addisteria.com/laravel_translation/)
 - [日本語翻訳ファイル](https://github.com/askdkc/breezejp)
+- sail php artisan make:request RecipeUpdateRequest
