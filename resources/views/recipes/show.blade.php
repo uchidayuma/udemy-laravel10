@@ -37,6 +37,40 @@
     <a href="{{ route('recipe.edit', ['id' => $recipe['id']]) }}" class="block w-2/12 p-4 my-4 mx-auto bg-white rounded text-center text-green-500 border border-green-500 hover:bg-green-500 hover:text-white">編集する</a>
   @endif
   <!-- reviews -->
+  @guest
+    <p class="text-center text-gray-500">レビューを投稿するには<a href="{{ route('login') }}" class="text-blue-700">ログイン</a>してください</p>
+  @endguest
+  @auth
+    <div class="w-10/12 p-4 mx-auto bg-white rounded mb-6">
+      <form action="{{ route('review.store', ['id' => $recipe['id']]) }}" method="POST">
+        @csrf
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="rating">
+            評価
+          </label>
+          <select name="rating" id="rating" class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-2 px-4 pr-8 rounded">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="comment">
+            コメント
+          </label>
+          <textarea name="comment" id="comment" cols="30" rows="10" class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-2 px-4 pr-8 rounded"></textarea>
+        </div>
+        <div class="flex items-center justify-between">
+          <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded" type="submit">
+            レビューを投稿する
+          </button>
+        </div>
+      </form>
+    </div>
+  @endauth
+
   <div class="w-10/12 p-4 mx-auto bg-white rounded">
     <h4 class="text-2xl font-bold mb-2">レビュー</h4>
   @if( count($recipe['reviews']) === 0)
