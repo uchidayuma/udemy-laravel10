@@ -58,7 +58,7 @@
 | 更新ページにもバリデーションを適用 | [update-validate](https://github.com/uchidayuma/udemy-laravel10/tree/update-validate) |
 | 編集ページのアクセス権を設定 | [edit-403](https://github.com/uchidayuma/udemy-laravel10/tree/edit-403) |
 | 削除機能の開発 | [recipe-delete](https://github.com/uchidayuma/udemy-laravel10/tree/recipe-delete) |
-| Section11 | レビュー機能の開発 |
+| レビュー機能の開発 | [review-post](https://github.com/uchidayuma/udemy-laravel10/tree/review-post) |
 |  |  |
 |  |  |
 |  |  |
