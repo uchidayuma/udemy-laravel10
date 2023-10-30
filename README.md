@@ -59,12 +59,7 @@
 | 編集ページのアクセス権を設定 | [edit-403](https://github.com/uchidayuma/udemy-laravel10/tree/edit-403) |
 | 削除機能の開発 | [recipe-delete](https://github.com/uchidayuma/udemy-laravel10/tree/recipe-delete) |
 | レビュー機能の開発 | [review-post](https://github.com/uchidayuma/udemy-laravel10/tree/review-post) |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| レビュー機能の細かい分岐を開発 | [basic-master](https://github.com/uchidayuma/udemy-laravel10/tree/basic-master) |
 
 
 # 開発環境の構築
