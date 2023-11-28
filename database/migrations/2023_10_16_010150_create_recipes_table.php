@@ -13,7 +13,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('recipes', function (Blueprint $table) {
-            $table->uuid('id')->primary();
+            $table->uuid('id', 36)->primary();
             $table->foreignUuId('user_id')->constrained()->onDelete('cascade');
             $table->foreignId('category_id')->constrained();
             $table->string('title');
